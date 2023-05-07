@@ -1,0 +1,43 @@
+body {
+    background-image: url(/img/hotdogs.jpeg);
+    background-repeat: cover;
+    background-size: 545px;
+   
+  }
+
+  h1 {
+    color: white;
+  }
+
+ol {
+    font-weight: bold;
+    color: white;
+}
+
+
+p {
+    font-size: 45px;
+    color: white;
+}
+
+a {
+    font-size: 40px;
+    color: white;
+}
+
+#hotDogs {
+text-decoration: none;
+}
+
+
+
+:hover {
+color: red}
+
+.nav{
+    font-weight: bold;
+}
+
+#mediumdog {
+    background-color: blue;
+}
