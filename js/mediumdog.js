@@ -1,17 +1,22 @@
 'use strict';
 
-let salePrice = 6.99;
+let salePrice = 4.99;
 
 let saleTax = 5.2;
 
-let discount1 = 10;
+let discount = 10;
 
-let discount2 = 5;
+let qty = prompt('Would you like an Medium dog?');
+let price = salePrice - (salePrice * discount / 100);
+let totalPrice = price * qty;
+let finalPrice = totalPrice + (totalPrice * saleTax / 100)
 
-let shippingCost =  3.99;
+alert (`Your total is ${finalPrice}`);
 
-let total = 25;
+let salesPageElm = document.getElementById('sale-page')
+ saleTaxElm.textContent = saleTax;
+ salesPageElm.appendChild(saleTaxElm);
 
-if (total > 25){
-  console.log(total);
-} 
+ document.getElementById("Cost").textContent('i');
+ document.getElementById("tax").textContent = saleTax;
+ document.getElementById("Cost").textContent = finalPrice;
