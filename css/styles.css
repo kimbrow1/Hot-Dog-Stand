@@ -31,13 +31,14 @@ a {
     color: white;
 }
 
-#hotDogs {
+#hot-Dogs {
 text-decoration: none;
 background-color: black;
 text-align: center;
-color: tan;
-padding: 20px;
+color:yellow;
+padding: 60px;
 margin: 490px;
+
 }
 
 :hover {
@@ -86,6 +87,10 @@ footer {
     color: white;
     background-color: black;
     border: 10px springgreen;
+}
+
+#main-body {
+    background-color: lightseagreen;
 }
 
 

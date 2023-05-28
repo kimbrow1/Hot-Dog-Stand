@@ -14,7 +14,7 @@ function Store(name, min, max, avg) {
     this.customers = []
 }
 console.log(Store);
-//create a prototype inside the function loop through state.stores and loop through the hours
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -28,10 +28,8 @@ Store.prototype.render = function () {
     firstRow.appendChild(firstCityData);
     table1Elm.appendChild(firstRow);
 
-    // We have the names of the cities
-    // We need the customers avg
     let firstHours = document.createElement('tr');
-    /// this for loop is for the customers each hour
+    
     for (let i = 0; i < this.customers.length; i++) {
         let secondData = document.createElement('td');
         secondData.textContent = this.customers[i];
@@ -40,7 +38,6 @@ Store.prototype.render = function () {
         secondElm.appendChild(firstHours);
     }
 }
-// show a row for the hours per city
 for (let i = 0; i < hours.length; i++) {
     let hoursNameTD = document.createElement('td');
     let table2Elm = document.getElementById("tables");

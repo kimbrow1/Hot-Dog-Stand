@@ -138,7 +138,7 @@ let finalTotal = 0;
 let d2Element = document.createElement("td");
 d2Element.textContent = finalTotal;
 trElement.appendChild(d2Element);
-function saleTable (){
+function saleTable(){
 }
 
 
