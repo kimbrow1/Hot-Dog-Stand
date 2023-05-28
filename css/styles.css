@@ -3,10 +3,11 @@
     height: 100%;
  }
  
- body {
+ #body-1 {
     background-image: url(/img/hotdogs.jpeg);
     background-repeat: cover;
-    background-size: 545px;
+    background-size: 545px
+    </style>
    
   }
 
@@ -92,6 +93,14 @@ footer {
 #main-body {
     background-color: lightseagreen;
 }
+
+#mediumdog {
+    background-color: aqua;
+    font-size: xx-large;
+    
+    
+}
+
 
 
 
