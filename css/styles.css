@@ -73,7 +73,21 @@ color: red;
 }
 
 #regular-dog {
- text-align: center;
+width: 100%;
+}
+
+#chilli-dog {
+    width: 100%;
+    
+}
+
+.chilli-nav {
+    color: black;
+}
+
+.chilli-p {
+    color: black;
+    text-align: center;
 }
 
 footer {
