@@ -1,10 +1,8 @@
-"use strict"
-
+"use strict";
 
 let hours = ["8am", "9am", "10am", "11am", "12pm"];
 
 let storesArray = [
-
   {
     store: "Seattle",
     minCust: 23,
@@ -48,7 +46,6 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
-
 for (let store of storesArray) {
   console.log("store", store);
   store.subTotal = 0;
@@ -63,27 +60,9 @@ for (let store of storesArray) {
 console.log("storesArray", storesArray);
 
 
-let parent = document.getElementById("store");
-for (let store of storesArray) {
-  let headingElement = document.createElement("h2");
-  headingElement.textContent = store.store;
-  parent.appendChild(headingElement);
-
-  for (let i = 0; i < store.salesPerHour.length; i++) {
-    let liElement = document.createElement("li");
-    liElement.textContent =
-      hours[i] + ": " + store.salesPerHour[i] + " Cookies";
-    parent.appendChild(liElement);
-  }
-  let subTotalElement = document.createElement("li");
-  subTotalElement.textContent = "Total: " + store.subTotal + " Cookies";
-  parent.appendChild(subTotalElement);
-}
-
 let tableElement = document.getElementById("sales");
 let headingRow = document.getElementById("heading-row");
 let headingRowElement = document.createElement("tr");
-
 
 for (let i = 0; i < hours.length; i++) {
   let tableDataElement = document.createElement("td");
@@ -95,21 +74,18 @@ let tableDataElement2 = document.createElement("td");
 tableDataElement2.textContent = "Daily Location Total";
 headingRow.appendChild(tableDataElement2);
 
-
 for (let store of storesArray) {
   let bodyRowElement = document.createElement("tr");
   let tableDataElement3 = document.createElement("td");
   tableDataElement3.textContent = store.store;
   bodyRowElement.appendChild(tableDataElement3);
 
-  
   for (let i = 0; i < store.salesPerHour.length; i++) {
     let TableData2Element = document.createElement("td");
     TableData2Element.textContent = store.salesPerHour[i];
     bodyRowElement.appendChild(TableData2Element);
   }
 
-  
   let tableTotalElement = document.createElement("td");
   tableTotalElement.textContent = store.subTotal;
   bodyRowElement.appendChild(tableTotalElement);
@@ -121,7 +97,6 @@ let tdElement = document.createElement("td");
 tdElement.textContent = "Totals";
 tableElement.appendChild(trElement);
 trElement.appendChild(tdElement);
-
 
 for (let i = 0; i < hours.length; i++) {
   let hourlyTotal = 0;
@@ -138,8 +113,4 @@ let finalTotal = 0;
 let d2Element = document.createElement("td");
 d2Element.textContent = finalTotal;
 trElement.appendChild(d2Element);
-function saleTable(){
-}
-
-
-
+function saleTable() {}
