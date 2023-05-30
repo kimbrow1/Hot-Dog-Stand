@@ -30,6 +30,9 @@ p {
 a {
     font-size: 40px;
     color: white;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
 }
 
 #hot-Dogs {
@@ -47,6 +50,8 @@ color: red}
 
 .nav{
     font-weight: bold;
+     text-align: center;
+     margin: 60px;
 }
 
 #mediumdog {
