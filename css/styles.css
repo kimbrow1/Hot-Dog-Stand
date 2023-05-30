@@ -44,14 +44,14 @@ a {
 }
 
 #hot-dogs {
-text-decoration: none;
-background-color: black;
-text-align: center;
-color:yellow;
-padding: 60px;
-margin: 490px;
-
-}
+    text-decoration: none;
+    background-color: black;
+    text-align: center;
+    color:yellow;
+    padding: 60px;
+    margin: 490px;
+    
+    }
 
 :hover {
 color: red;
@@ -192,4 +192,9 @@ table, th, td, tr {
 .e-d {
     margin: 1px;
 
+}
+
+.home-a {
+    background-color: black;
+    font-weight: bold;
 }
