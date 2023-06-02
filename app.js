@@ -109,7 +109,7 @@ for (let i = 0; i < hours.length; i++) {
   trElement.appendChild(dataElement);
 }
 
-let finalTotal = 0;
+let finalTotal = 6;
 let d2Element = document.createElement("td");
 d2Element.textContent = finalTotal;
 trElement.appendChild(d2Element);
