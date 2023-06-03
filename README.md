@@ -21,4 +21,4 @@ This project took numerous hours to complete and throughout it i learned alot wh
 
 ### Light House
 
-![Alt text](/Users/kimbrow/courses/lab-5b/img/Screen Shot 2023-06-03 at 3.18.56 PM.png)
+![LightHouse](img/Screen%20Shot%202023-06-03%20at%203.18.56%20PM.png)
