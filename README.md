@@ -1,8 +1,8 @@
 # LAB 10-b
 
-## Cookie Stand
+## Hot Dog Stand
 
-I builded an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I Created this app to generate numbers in my sales chart for the total of my Hotdogs. In addition to that I wanted to make sure that I displayed the locations and images of what each Hot Dog looks like and what the cost of the are. 
 
 ### Author: Brian Kimbrow
 
@@ -22,3 +22,5 @@ This project took numerous hours to complete and throughout it i learned alot wh
 ### Light House
 
 ![Light House Image](img/Screen%20Shot%202023-06-03%20at%203.45.51%20PM.png)
+
+
