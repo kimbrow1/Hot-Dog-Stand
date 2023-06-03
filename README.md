@@ -19,5 +19,6 @@ https://flexboxfroggy.com/
 
 This project took numerous hours to complete and throughout it i learned alot when it comes to working with the DOM.
 
+### Light House
 
-
+![Alt text](/Users/kimbrow/courses/lab-5b/img/Screen Shot 2023-06-03 at 3.18.56 PM.png)
