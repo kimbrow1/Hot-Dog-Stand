@@ -21,4 +21,4 @@ This project took numerous hours to complete and throughout it i learned alot wh
 
 ### Light House
 
-![LightHouse](img/Screen%20Shot%202023-06-03%20at%203.18.56%20PM.png)
+![Light House Image](img/Screen%20Shot%202023-06-03%20at%203.45.51%20PM.png)
