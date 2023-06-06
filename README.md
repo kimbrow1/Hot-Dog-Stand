@@ -1,6 +1,4 @@
-# LAB 10-b
-
-## Hot Dog Stand
+# Hot Dog Stand
 
 I Created this app to generate numbers in my sales chart for the total of my Hotdogs. In addition to that I wanted to make sure that I displayed the locations and images of what each Hot Dog looks like and what the cost of the are. 
 
