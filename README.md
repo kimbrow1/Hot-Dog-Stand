@@ -1,6 +1,11 @@
 # Hot Dog Stand
 
-I Created this app to generate numbers in my sales chart for the total of my Hotdogs. In addition to that I wanted to make sure that I displayed the locations and images of what each Hot Dog looks like and what the cost of the are. 
+This is a  proof of concept application to calculate the number of Hot Dogs at  each location every day so that it can manage its supplies inventory and cooking schedule. The number of Hot Dogs to make depends on the hours of operation (6:00 AM to 8:00 PM for all locations) and a few factors unique to each location:
+The minimum number of customers per hour.
+The maximum number of customers per hour.
+The average number of cookies purchased per customer.
+We will be building  an application that is adaptable. I  will  be able to add and remove locations from the daily projections report, and I will also  be able to easily modify the input numbers for each location based on day of the week, special events, and other factors. 
+
 
 ### Author: Brian Kimbrow
 
