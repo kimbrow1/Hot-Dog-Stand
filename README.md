@@ -17,11 +17,9 @@ https://youtu.be/Eeh7pxtTZ3k?t=227
 
 https://flexboxfroggy.com/
 
-
-### Reflections and Comments
-
-This project took numerous hours to complete and throughout it i learned alot when it comes to working with the DOM.
-
 ### Light House
 
 ![Light House Image](img/Screen%20Shot%202023-06-03%20at%203.45.51%20PM.png)
+
+
+### Reflections and Comments
